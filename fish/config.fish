@@ -10,7 +10,7 @@ set -x LC_NUMERIC en_US.UTF-8
 set -x LC_TIME en_US.UTF-8
 set -x LC_ALL en_US.UTF-8
 
-set -x PATH $PATH /Users/jonas/go/bin
+set -x PATH $PATH /usr/local/bin /Users/jonas/go/bin
 set -x GOPATH /Users/jonas/go
 
 kitty + complete setup fish | source
